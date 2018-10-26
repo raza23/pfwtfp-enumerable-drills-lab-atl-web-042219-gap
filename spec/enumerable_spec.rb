@@ -39,16 +39,8 @@ describe "#using_find" do
   end
 end
 
+
 # Question 4
-# Write a method that uses each
-describe "#using_each" do
-  it "takes in argument of an Array and uses #each to output a statement with an array interpolated within it" do
-    expect(using_each(enumerable_array_2)).to eq(["This", "is", "true", "love", "you", "think", "this", "happens", "every", "day"])
-  end
-end
-
-
-# Question 5
 # Write a method that uses sort
 describe "#using_sort" do
   it "takes in an argument of an Array and returns a copy of the Array, sorted" do
@@ -57,7 +49,7 @@ describe "#using_sort" do
   end
 end
 
-# Question 6
+# Question 5
 # Write a method that uses max
 describe "#using_max" do
   it "takes in argument of an Array and returns the highest numerical value (#max)" do
@@ -65,7 +57,7 @@ describe "#using_max" do
   end
 end
 
-# Question 7
+# Question 6
 # Write a method that uses include?
 describe "#using_include" do
   it "takes in arguments of (1) an Array and (2) a sought element and returns true if the array includes that element; else, false" do
@@ -76,7 +68,7 @@ describe "#using_include" do
   end
 end
 
-# Question 8
+# Question 7
 # Write a method that uses all?
 describe "#using_all?" do
   it "takes in argument of an Array and returns true if all of the numbers in the Array are even (#all?)" do
@@ -84,7 +76,7 @@ describe "#using_all?" do
   end
 end
 
-# Question 9
+# Question 8
 # Write a method that uses any?
 describe "#using_any?" do
   it "takes in argument of an Array and returns true if there are any integers in the given Array (#any?)" do
